@@ -9,7 +9,7 @@ cd updated-gist
 ls -la
 echo $(date) > bumpme
 
-git config --global user.email "nobody@concourse.ci"
+git config --global user.email "reagul@concourse.ci"
 git config --global user.name "reagul"
 
 git add .
