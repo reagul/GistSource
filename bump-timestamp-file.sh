@@ -14,3 +14,4 @@ git config --global user.name "reagul"
 
 git add .
 git commit -m "Bumped date"
+ls -la
