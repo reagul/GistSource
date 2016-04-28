@@ -20,3 +20,5 @@ cd ../
 
 echo "test message here"
 ls -la
+pwd
+echo "more msg here"
