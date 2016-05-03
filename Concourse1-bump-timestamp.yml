@@ -1,7 +1,12 @@
 ---
 platform: linux
 
-image: docker:///concourse/concourse-ci
+image_resource:
+  type: docker-image
+  source:
+    repository: nitram509/alpine-oraclejdk8-maven-cmake-gcc
+    tag: latest
+
 
 inputs:
   - name: resource-tutorial
