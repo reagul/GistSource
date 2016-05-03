@@ -6,9 +6,10 @@ set -x # print commands
 git clone Concourse1 updated-gist
 
 cd updated-gist
-ls -la
+echo "Starting MVN Test"
+mvn clean package
 echo $(date) > bumpme
-
+echo "Stop"
 git config --global user.email "reagul@concourse.ci"
 git config --global user.name "reagul"
 
