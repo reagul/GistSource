@@ -11,4 +11,4 @@ outputs:
   - name: updated-gist
 
 run:
-  path: resource-tutorial/bump-timestamp-file.sh
+  path: resource-tutorial/Concourse1.sh
