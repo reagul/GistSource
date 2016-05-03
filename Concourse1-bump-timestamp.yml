@@ -5,7 +5,7 @@ image: docker:///concourse/concourse-ci
 
 inputs:
   - name: resource-tutorial
-  - name: resource-gist
+  - name: Concourse1
 
 outputs:
   - name: updated-gist
