@@ -14,7 +14,7 @@ git config --global user.email "reagul@concourse.ci"
 git config --global user.name "reagul"
 
 git add .
-git commit -m 'Test Completed at "$(date)" '
+git commit -m 'Test Completed at $(date) '
 ls -la
 pwd
 cd ../
